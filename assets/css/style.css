@@ -1,0 +1,26 @@
+body {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: 1B1B1B;
+
+}
+.header {
+  display: flex;
+  color: FFFFFF;
+  background-color: transparent;
+  justify-content: flex-start;
+  margin-left: 3%;
+  font-size: 2vw;
+  font-family: "JetBrainsMono";
+}
+.info {
+  border-radius: 35px;
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  background-color: 252525;
+}
+
