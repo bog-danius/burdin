@@ -10,17 +10,18 @@ function typeText() {
   let line = 0;
   let count = 0;
   let out = "";
-  let text1 = document.querySelector(".info");
+  let text2 = document.querySelector(".text1");
   function typeLine() {
     let interval = setTimeout(function () {
       out += text[line][count];
-      text1.innerHTML = out + "|";
+      text2.innerHTML = out + "|";
       count++;
       if (count >= text[line].length) {
         count = 0;
         line++;
         if (line == text.length) {
           clearTimeout(interval);
+          text2.innerHTML = out;
           return true;
         }
       }

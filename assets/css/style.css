@@ -1,30 +1,43 @@
 body {
-  display: flex;
   margin: 0;
   padding: 0;
   background-color: 1B1B1B;
-
 }
 .header {
   display: flex;
   color: FFFFFF;
   background-color: transparent;
   justify-content: flex-start;
-  margin-left: 3%;
-  font-size: 24px;
 
+  font-size: 24px;
+  position: sticky;
 }
 .info {
-  color: FFFFFF;
   padding: 10px;
-  border-radius: 35px;
+  border-radius: 15px;
   width: auto;
-  height:auto;
+  height: auto;
   display: flex;
-  justify-content: center;
-  align-items:center;
   background-color: 252525;
   font-family: "JetBrainsMono";
-  font-size: 18px;
+  position: relative;
 }
-
+.text1 {
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  color: FFFFFF;
+}
+.me {
+  color: FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-family: "JetBrainsMono";
+  position: sticky;
+  padding: 10px;
+  font-size: 20px;
+}
+.ico {
+  width: 30px;
+}
