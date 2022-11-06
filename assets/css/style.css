@@ -11,16 +11,20 @@ body {
   background-color: transparent;
   justify-content: flex-start;
   margin-left: 3%;
-  font-size: 2vw;
-  font-family: "JetBrainsMono";
+  font-size: 24px;
+
 }
 .info {
+  color: FFFFFF;
+  padding: 10px;
   border-radius: 35px;
-  width: 40%;
-  height: 30%;
+  width: auto;
+  height:auto;
   display: flex;
   justify-content: center;
   align-items:center;
   background-color: 252525;
+  font-family: "JetBrainsMono";
+  font-size: 18px;
 }
 
