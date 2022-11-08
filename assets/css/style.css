@@ -12,21 +12,15 @@ body {
   font-size: 24px;
   position: sticky;
 }
-.info {
-  padding: 10px;
-  border-radius: 15px;
-  width: auto;
-  height: auto;
-  display: flex;
+.information {
   background-color: 252525;
-  font-family: "JetBrainsMono";
-  position: relative;
+  border-radius: 7px;
+  display: flex;
 }
 .text1 {
-  font-size: 20px;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   color: FFFFFF;
+  font-family: "JetBrainsMono";
 }
 .me {
   color: FFFFFF;
@@ -40,4 +34,29 @@ body {
 }
 .ico {
   width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    color: FFFFFF;
+    background-color: transparent;
+    justify-content: flex-start;
+    font-size: 19px;
+    position: sticky;
+  }
+  .information {
+    background-color: 1B1B1B;
+  }
+  .me {
+    color: FFFFFF;
+    display: flex;
+    flex-direction: column-reverse;
+    font-family: "JetBrainsMono";
+    position: sticky;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .ico {
+    width: 15px;
+  }
 }
